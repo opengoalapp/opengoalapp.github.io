@@ -10,4 +10,4 @@ Currently I'm Head of Data at [360 Scouting](https://360-scouting.com/), a Nethe
 
 This blog hosts my personal, publicly available work. Feel free to get in touch if you have any questions about anything you see on the site, it would be great to hear from you.
 
-Contact opengoalcharles@gmail.com for any enquiries.
+Contact opengoalapp@gmail.com for any enquiries.
