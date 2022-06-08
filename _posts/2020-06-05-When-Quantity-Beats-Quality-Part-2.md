@@ -27,7 +27,7 @@ We’ll vary the match scenario over two variables: Weak City’s xG Total (reme
 Like before, we'll measure Weak City's outcome using Points Per Game (PPG).
 
 Weak City's PPG performance is shown below, and it immediately throws up something that goes against the conclusion we came to previously.
-##### Expected Points per Game vs Number of shots xG is distributed over - Opponent SR = 2
+##### Expected Points per Game vs Number of shots xG is distributed over - Opponent SR=2
 <p align="center">
  <img src="/images/quantoverqual2/plot1.png" />
 </p>
@@ -49,12 +49,12 @@ When the game is "closed", i.e. xG for both teams is lower, how the weaker team'
 
 Lets see what happens when we vary the gulf in shooting chance creation prowess between the two teams. We'll keep all environment parameters the same as before, but this time the strength ratio will be first increased to 3, and then decreased to 1.5.
 
-##### Expected Points per Game vs Number of shots xG is distributed over - Opponent SR = 3
+##### Expected Points per Game vs Number of shots xG is distributed over - Opponent SR=3
 <p align="center">
  <img src="/images/quantoverqual2/plot2.png" />
 </p>
 
-##### Expected Points per Game vs Number of shots xG is distributed over - Opponent SR = 1.5
+##### Expected Points per Game vs Number of shots xG is distributed over - Opponent SR=1.5
 
 <p align="center">
  <img src="/images/quantoverqual2/plot3.png" />
@@ -114,4 +114,4 @@ Successfully taking advantage of this distribution effect as the weaker or indee
 
 Another way of looking at it is if you do choose to adopt a shoot on sight policy as a weaker side you can take comfort in the fact you aren’t making a mistake mathematically at least.
 
-While there must be caution taken when considering real-world effects, especially our own and opposition team characteristics, tactics, and in-match effects, what we  can  say is waiting for that “one big chance” while passing up lower quality opportunities may very well be sub-optimal in a number of plausible match scenarios.
+While there must be caution taken when considering real-world effects, especially our own and opposition team characteristics, tactics, and in-match effects, what we  *can* say is **waiting for that “one big chance” while passing up lower quality opportunities may very well be sub-optimal in a number of plausible match scenarios.**
