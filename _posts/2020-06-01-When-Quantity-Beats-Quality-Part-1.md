@@ -4,8 +4,6 @@ title: When Quantity Beats Quality - Part 1
 categories: [xG, Statistics]
 ---
 
-# <p align=center>  When Quantity Beats Quality - Part 1 </p>
-
 -   ##### Distributing a given xG total into few, high quality shots will not maximise points return for some teams in certain match situations – in fact the opposite is true
 -   ##### Teams with a known and realised strength disadvantage will achieve increased points per game if their match xG total is distributed across a high number of lower quality shots compared to a low number of higher quality shots
 If seminal works exist in the world of football analytics then the following two posts fit the bill:
@@ -65,8 +63,7 @@ And there we have it - Even though both teams have the same xG total, Pot Shot F
 It is interesting that although AFC Walkitin have no chance of scoring more than 3 goals (and as such Pot Shot FC can win 12.9% of time regardless of how many goals AFC Walkitin score), their domination in lower scoring games is enough to overpower this effect and give them an overall advantage.
 
 We can also see what happens when the xG total for each team varies. In our example we set our xG total to 2 for each team. Varying this between 0.5 and 2.5, keeping the number of shots at 15 (Pot Shot FC) and 3 (AFC Walkitin) and plotting the expected points per game (3 for a win, 1 for a draw) yields the following result.
-#### <p align="center"> Expected points per game vs match xG total for each team
-</p>
+#### Expected points per game vs match xG total for each team
 
 <p align="center">
  <img src="https://static.wixstatic.com/media/160ff0_9875e9933fd34cac97fdc9b857ae6c81~mv2.png/v1/fill/w_557,h_326,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/graph.png" />
