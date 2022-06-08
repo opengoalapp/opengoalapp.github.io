@@ -4,7 +4,8 @@ title: When Quantity Beats Quality - Part 1
 categories: [xG, Statistics]
 ---
 
--  **Distributing a given xG total into few, high quality shots will not maximise points return for some teams in certain match situations – in fact the opposite is true**
+-  **Distributing a given xG total into few, high quality shots will not maximise points return for some teams in certain match situations – in fact the opposite is true**  
+
 -  **Teams with a known and realised strength disadvantage will achieve increased points per game if their match xG total is distributed across a high number of lower quality shots compared to a low number of higher quality shots**
 
 If seminal works exist in the world of football analytics then the following two posts fit the bill:
@@ -50,7 +51,7 @@ Creating a matrix as shown below and summing the outcomes where Pot Shot FC wins
 
 And there we have it - Even though both teams have the same xG total, Pot Shot FC only win 35.1% of the time compared to AFC Walkitin who win 39.8% of the time.
 
-> *Technical Aside:*
+> *Technical Aside:*  
 > *It should probably be noted for this model we are assuming that a team's ability to score is independent of their opponents ability to score, and as such each team's set of probabilities are mutually exclusive.*
 > 
 > *This is not correct in the real world, as clearly the opponent's performance will be a factor in determining a team's goal output. However, in our match scenario we know for a fact these shots will occur.*
