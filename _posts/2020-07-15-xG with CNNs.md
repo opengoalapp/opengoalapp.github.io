@@ -172,7 +172,7 @@ Further experimentation resulted in replacing the standard ReLU activation funct
 The final model achieved a log loss of 0.2909 and produced the following calibration curve, shown along side the StatsBomb model on the same data:
 
 <p align="center">
- <img src="/images/CNN/cc_final.png" />
+ <img src="/images/CNN/cc_final.png" />
 </p>
 
 Further investigation with 2 layer and 4 layer architectures yielded log loss values of 0.2951 and 0.2933 respectively, with calibration curves showing larger mis-calibration at higher xG values compared to the 3 layer architecture.
