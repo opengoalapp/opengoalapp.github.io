@@ -59,7 +59,7 @@ And there we have it - Even though both teams have the same xG total, Pot Shot F
 > *We are now just piecing together what the score could be given those shots occurring. We are also assuming that each shot is totally independent and not dependent on the outcome of another e.g. a rebound.*
 
 <p align="center">
- <img src="https://static.wixstatic.com/media/160ff0_2965bfc45a0249a795224dfd101bdd2e~mv2.png/v1/fill/w_702,h_411,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/excel.png" />
+ <img src="/images/quantoverqual1/excel.png" />
 </p>
 
 It is interesting that although AFC Walkitin have no chance of scoring more than 3 goals (and as such Pot Shot FC can win 12.9% of time regardless of how many goals AFC Walkitin score), their domination in lower scoring games is enough to overpower this effect and give them an overall advantage.
@@ -68,7 +68,7 @@ We can also see what happens when the xG total for each team varies. In our exam
 #### Expected points per game vs match xG total for each team
 
 <p align="center">
- <img src="https://static.wixstatic.com/media/160ff0_9875e9933fd34cac97fdc9b857ae6c81~mv2.png/v1/fill/w_557,h_326,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/graph.png" />
+ <img src="/images/quantoverqual1/graph.png" />
 </p>
 
 We see that Pot Shot FC's PPG pretty much saturates at 1.3 pts (and even decreases slightly) from total xG = 1 onward, while AFC Walkitin's increases, leading to an increased PPG advantage for AFC Walkitin as the xG total increases representing a more open game. We should also note that AFC Walkitin's PPG advantage is by no means insignificant!
