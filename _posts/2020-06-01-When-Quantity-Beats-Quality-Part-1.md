@@ -4,8 +4,9 @@ title: When Quantity Beats Quality - Part 1
 categories: [xG, Statistics]
 ---
 
--   ##### Distributing a given xG total into few, high quality shots will not maximise points return for some teams in certain match situations – in fact the opposite is true
--   ##### Teams with a known and realised strength disadvantage will achieve increased points per game if their match xG total is distributed across a high number of lower quality shots compared to a low number of higher quality shots
+-  **Distributing a given xG total into few, high quality shots will not maximise points return for some teams in certain match situations – in fact the opposite is true**
+-  **Teams with a known and realised strength disadvantage will achieve increased points per game if their match xG total is distributed across a high number of lower quality shots compared to a low number of higher quality shots**
+
 If seminal works exist in the world of football analytics then the following two posts fit the bill:
 
 [Danny Page - Expected Goals Don't Just Add Up, They Multiply](https://medium.com/@dannypage/expected-goals-just-don-t-add-up-they-also-multiply-1dfd9b52c7d0)
