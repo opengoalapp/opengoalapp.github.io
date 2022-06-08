@@ -234,8 +234,7 @@ The hope would be that with enough data of this type, the esoteric uncertainty c
 
 **VAEP**  - Decroos, T., Bransen, L., Van Haaren, J. and Davis, J., 2019, July. Actions speak louder than goals: Valuing player actions in soccer. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 1851-1861).
 
-**Data for VAEP demonstration**  - StatsBomb
-​
+**Data for VAEP demonstration**  - StatsBomb  
 ![SB_Regular.png](https://static.wixstatic.com/media/160ff0_40e6f3f380a04d49947c6e8fc863736d~mv2.png/v1/fill/w_253,h_32,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/SB_Regular.png)
 
 **MDN model building**  -  [Keras MDN Layer - https://github.com/cpmpercussion/keras-mdn-layer](https://github.com/cpmpercussion/keras-mdn-layer)
