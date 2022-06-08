@@ -4,8 +4,7 @@ title: Player Embedding With UMAP
 categories: [Machine Learning]
 ---
 
-#### <a alighref="https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/opengoalapp/0091f8e13326df8e5ebb847f386f1b63/raw/587369f6acc821375dca35cbf6bc5624084cca5c/config.json">Go straight to the interactive applet
-</a>
+#### <a href="https://projector.tensorflow.org/?config=https://gist.githubusercontent.com/opengoalapp/0091f8e13326df8e5ebb847f386f1b63/raw/587369f6acc821375dca35cbf6bc5624084cca5c/config.json">Go straight to the interactive applet</a>
 The "curse of dimensionality" is a somewhat dramatic phrase you might not necessarily associate with the less than high-octane world of modelling 22 people kicking an inflatable piece of leather around for an hour and a half. It is however something that the entire field of data science has to contend with.
 
 In a nutshell, when the number of dimensions your data has becomes large (such as a typical table you might find on FBref) strange things start to happen when you apply even the most common data science techniques. Particularly relevant consequences in football analytics are the training of regression or classification models (think xG) which require very large amounts of training data and computation of distance functions (think player similarity searches) which can produce meaningless results. There's plenty of great material on this issue that can be found with a quick search to understand why this, and other issues, occur. Fortunately there are some techniques you can use that will mitigate these problems. One of these is embedding high dimensional data into a lower number of dimensions.
