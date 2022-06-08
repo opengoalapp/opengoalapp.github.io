@@ -25,7 +25,7 @@ The figure below shows a highly simplified decision tree that could be used for 
  <img src="/images/CNN/dec_tree.png" />
 </p>
 
-A basic example of a decision tree which could be used as an xG model. The node and branch values are derived from a training process, with xG values for new shots being derived by following the applicable path down the tree
+##### A basic example of a decision tree which could be used as an xG model. The node and branch values are derived from a training process, with xG values for new shots being derived by following the applicable path down the tree
 
 Of course in the real world the trees developed would be far more complex with far more meaningful inputs. Many top end models take advantage of the benefits of combining hundreds or thousands of them to get more accurate results in what is known as an ensemble.
 
@@ -91,7 +91,7 @@ The input of the model will therefore be 3 channels or 80x40 binary images, and 
  <img src="/images/CNN/channels.png" />
 </p>
 
-Freeze frames represented as three binary image channels. Teammate locations have been stripped out of the frame for processing
+##### Freeze frames represented as three binary image channels. Teammate locations have been stripped out of the frame for processing
 
 We then have a very important final validation step to ensure that this index of confidence is actually representative of the probability of a goal outcome given the input data, which we can call xG, as this is by no means guaranteed for many standard machine learning techniques.
 
