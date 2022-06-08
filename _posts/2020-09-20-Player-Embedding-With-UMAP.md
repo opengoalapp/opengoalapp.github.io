@@ -48,8 +48,7 @@ We'll select 3 as the number of dimensions we'll reduce our player data to, main
  <img src="/images/umap/pca_pos.png" />
 </p>
 
-
-Players represented in 3D space using PCA and coloured using positional meta-data. Note this image is taken from a bird's eye view so appears 2D
+##### Players represented in 3D space using PCA and coloured using positional meta-data. Note this image is taken from a bird's eye view so appears 2D
 
 There is some additional meta-data included with the data set used in the applet, that is data that isn't used as part of the dimension reduction process but can be used to add further description to the data points on the plot. If we add the FBref position label as colour to the plot we can see the dimension reduction has done a good job of identifying positional tendencies straight away. We can also see our data is organised in two clear halves.
 
@@ -57,7 +56,7 @@ There is some additional meta-data included with the data set used in the applet
  <img src="/images/umap/pca_rf.png" />
 </p>
 
-Players represented in 3D space using PCA and coloured using percentage of passes played with the right foot. Note this image is taken from a bird's eye view so appears 2D
+##### Players represented in 3D space using PCA and coloured using percentage of passes played with the right foot. Note this image is taken from a bird's eye view so appears 2D
 
 If we colour our points by % of passes played with right foot all becomes clear. Now of course this feature is not meta-data, it was included in the data used for dimension reduction so it hasn't learned anything new. Rather we can see that it has placed importance of "footedness" by generating a clear distinction in reduced feature space when describing players, which is a nice sanity check. Let's now see what UMAP can do since there is a rather blurred transition between outfield players with our PCA method, we've only really got 4 distinct "blobs" when we remove our artificial colouring from meta-data.
 
@@ -67,7 +66,7 @@ If we colour our points by % of passes played with right foot all becomes clear.
  <img src="/images/umap/umap.png" />
 </p>
 
-Players represented in 3D space using UMAP and coloured using positional meta-data.
+##### Players represented in 3D space using UMAP and coloured using positional meta-data.
 
 Using the same colouring scheme from before we can see UMAP has successfully identified position categories and footedness, It also has split players with what we might identify as defensive traits away from the outfield monolith and split into two. Could this be defenders with attacking tendencies such as certain full/wing backs? I'll leave it as an exercise for the reader to explore some of the names that crop up in the various clusters. We're also using the default parameter for neighbours used in the calculation so I'll leave it as a further exercise for the reader to see how changing this affects the output.
 
