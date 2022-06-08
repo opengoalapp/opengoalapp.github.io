@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Finishing Ability: Uncovering the Signal
+title: Finishing Ability - Uncovering the Signal
 categories: [xG, psxG, Models]
 ---
 
--  **A step-by-step guide demonstrating how to generate a finishing ability metric from scratch including confidence interval**
+-   **A step-by-step guide demonstrating how to generate a finishing ability metric from scratch including confidence interval**
     
 
--  **Typically over/under performance of goal output vs xG is used as an indicator of this ability. This is highly problematic as noise drowns out signal in all but the most extreme abilities or with several seasons' worth of shots**
+-   **Typically over/under performance of goal output vs xG is used as an indicator of this ability. This is highly problematic as noise drowns out signal in all but the most extreme abilities or with several seasons' worth of shots**
     
 
 -   **Less common approaches that offer some improvement utilise Bayesian methods. However either the impact of goalkeeper and defender performance is still a component of the output or no attempt at incorporating shot placement and power is made, keeping noise levels high**
@@ -157,7 +157,7 @@ psxG model calibration curve - visually we can see closer alignment to the 1:1 t
 
 To check that the elevation input we tinkered with was actually adding value to model, we can train it again without elevation as an input. The log loss is now considerably lower at 0.2824. So we can be confident that we have increased performance whilst not letting the missing elevation data damage the integrity of the model.
 
-##### \* all shots in the data set used have shot impact height set to ground by default. From 01/08/2020 there is now shot impact height data available for shots from StatsBomb, which if included in the models would likely increase the quality of both xG and psxG outputs.
+>\* all shots in the data set used have shot impact height set to ground by default. From 01/08/2020 there is now shot impact height data available for shots from StatsBomb, which if included in the models would likely increase the quality of both xG and psxG outputs.
 
 ### Putting it all together
 
